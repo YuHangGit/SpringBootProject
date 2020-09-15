@@ -1,0 +1,8 @@
+### 配置Thymeleaf 转发视图信息
+spring:
+  thymeleaf:
+    ### 禁止使用Thymeleaf 缓存
+    cache: false
+    ### 设定转发视图
+    prefix: classpath:/view/
+    suffix: .html

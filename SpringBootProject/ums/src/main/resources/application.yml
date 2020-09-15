@@ -1,0 +1,10 @@
+### 设定项目启动端口号
+server:
+  port: 80
+spring:
+  ### 配置项目应用名
+  application:
+    name: ums
+  ### 设定Spring Boot项目启动后需要加载的其他配置文件
+  profiles:
+    active: data, mvc
